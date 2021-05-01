@@ -1,0 +1,280 @@
+/* reset setting */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    /* font-size: 20px; */
+}
+nav{
+    display: block;
+    /* position: sticky;
+    top: 0px; */
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+header { 
+    display:block;
+}
+
+/* utility */
+.container{
+    padding: 0px 20px;
+    margin: auto;
+    overflow: auto;
+    max-width: 1100px;
+}
+.clear{
+    clear: both;
+}
+.text-primary{
+    color: #f7c08a;
+}
+
+.lead{
+    font-size: 20px;
+}
+.btn{
+    color: #fff;
+    background: #333;
+    height: 50px ;
+    padding: 10px 18px;
+}
+.btn:hover{
+    color:#333;
+    background: #f7c08a;
+}
+.btn-dark{
+    color: #fff;
+    background: #333;
+    height: 50px ;
+}
+.bg-light{
+    background: #f4f4f4;
+    color: black;
+}
+.bg-dark{
+    background: #333;
+    color: #fff ;
+}
+.bg-primary{
+    background: #f7c08a;
+}
+.l-heading{
+    font-size: 40px;
+    line-height:1.2 ;
+}
+.py3{padding:30px 0px ;}
+.py2{padding:20px 0px ;}
+.py1{padding:10px 0px ;}
+/* navbar */
+#navbar{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    padding-top: 20px;
+    float: left;
+    /* width: 50%; */
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a{
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08a;
+}
+
+/* Showcase */
+#showcase{
+    color: #fff;
+    background: url(../img/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+#showcase .showcase-content{
+    margin: 195px auto;
+    text-align: center;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+#showcase .showcase-content p{
+    padding: 20px 0px;
+}
+#showcase .showcase-content a{
+    display: inline-block;
+    margin:  20px auto ;
+    font-size: 18px;
+    padding: 10px 18px;
+}
+/* Home-info */
+#description{
+    display: block;
+    height: 450px;
+    color: #fff;
+    background: #333;
+}
+#description .photo{
+    float: left;
+    width: 50%;
+    background: url(../img/photo-1.jpg) no-repeat ;
+    min-height: 100%;
+}
+
+#description .content{
+    float: right;
+    width: 50%;
+    height: 100%;
+    padding: 50px 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#description .content h1{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+#description .content p{
+    padding: 10px 0px;
+}
+#description .content a{
+    display: inline-block;
+    margin:  30px auto ;
+    font-size: 18px;
+}
+
+/* Features */
+#features{
+    display: block;
+    height: 100%;
+}
+.box{
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    height: 100%;
+    padding: 50px;
+    text-align: center;
+}
+
+.box i{
+    margin-bottom: 10px;
+}
+/* About Page */
+#about-info .left-align{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .right-align img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#about-info .right-align {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+/* Testimonials */
+#testimonials{
+    height: 100%;
+    background:url(../img/test-bg.jpg) no-repeat center center/cover;
+    height: 600px;
+    padding-top: 100px;
+}
+#testimonials h2{
+    color: #ffff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+#testimonials .testimonial {
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+#testimonials .testimonial:hover{
+    opacity: 0.9;
+}
+
+#testimonials .testimonial img{
+    width: 90px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Contact Us */
+#form h2{
+    padding-top: 30px;
+}
+
+#form p{
+    padding: 10px 0px;
+}
+#form form{
+    height: 100%;
+}
+#form .form-group{
+    margin-bottom: 20px;
+}
+#form label{
+    display: block;
+    margin-bottom: 5px;
+}
+#form input, 
+#form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#form textarea {
+    height: 200px;
+}
+#form input:focus, 
+#form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+#form .btn{
+    margin-bottom: 20px;
+    outline: none;
+    border:none;
+    font-size: 19px;
+}
+/* Footer */
+#footer{
+      background: #444;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+}
